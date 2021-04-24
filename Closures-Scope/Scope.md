@@ -23,3 +23,5 @@ Este scope nos permite acceder a una variable dentro de un bloque de código o u
 En el scope local existe el _ámbito léxico_ esto nos quiere decir que va a buscar una variable dentro del bloque en el que fue llamada y es el valor que va a tomar y si es que el mismo nombre de variable también existe fuera del ámbito en el que fue llamado este valor no sera re asignado porque toma el primer valor encontrado desde adentro hacia afuera.
   
 El scope local tiene dos variantes _en bloque_ y _en funciones_.
+
+_Scope local en funciones_ : aplica para las variables declaradas dentro de una función y esta no pueden ser accedidas fuera de la misma.
