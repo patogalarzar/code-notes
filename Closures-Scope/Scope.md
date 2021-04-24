@@ -25,3 +25,4 @@ En el scope local existe el _ámbito léxico_ esto nos quiere decir que va a bus
 El scope local tiene dos variantes _en bloque_ y _en funciones_.
 
 _Scope local en funciones_ : aplica para las variables declaradas dentro de una función y esta no pueden ser accedidas fuera de la misma.
+_Scope local en bloques_ : aplica para las variables declaradas dentro de un bloque(if, for, while, etc.), al declarar una variable con **var** dentro de un bloque esta si puede ser accedida fuera del bloque porque trabaja dentro del ámbito de la funcion en cambio al declarar con **let y const** no se puede porque trabajan únicamente dentro del ámbito bloque.
