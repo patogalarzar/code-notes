@@ -9,3 +9,23 @@ Para trabajar con la computadora tiene que haber interacción una entrada(input)
 _Periféricos de entrada_: Teclado, mouse, micrófono, cámara, scanner, tabletas de dibujo, etc.
 _Periféricos de salida_: Monitor, impresora, parlantes, proyector, etc.
 _Cálculos_: Prácticamente todo lo que hace la computadora son cálculos matemáticos de muy alto nivel. Lo importante de los cálculos son tiempos de respuesta.
+
+_Binario_: El codigo de maquina es un leguaje binario, el sistema binario es un sistema de conteo representado por ceros y unos. El sistema binario se incrementa en 2 empezando desde 1 hasta 128(1,2,4,8,16,32,64,128), para representar un número se activa(poner en 1) el valor que representa dentro del octeto y se pueden usar las variantes necesarias para representar el numero deseado:
+
+|128| 64| 32| 16|  8|  4|  2|  1| Res |
+|-------------------------------------|
+|  0|  0|  0|  0|  0|  0|  0|  1| =  1|
+|  0|  0|  0|  0|  0|  0|  1|  0| =  2|
+|  0|  0|  0|  0|  0|  0|  1|  1| =  3|
+|  0|  0|  0|  1|  0|  1|  0|  0| = 20|
+|  0|  0|  0|  0|  0|  0|  0|  1| =255|
+---------------------------------------
+
+_Ejercicio_: Representar el número 70 en binario.
+
+|128| 64| 32| 16|  8|  4|  2|  1| Res |
+|-------------------------------------|
+|  0|  1|  0|  0|  0|  1|  1|  0| = 70|
+---------------------------------------
+
+En términos mas humanos sumamos los digitos que tenemos dispnibles para que no de el numero deseado(970) en este caso sería 64 + 4 + 2 = 70 y activamos poniendo un 1 en la ubicación correspondiente a cada número que necesitamos para sumar 70.
