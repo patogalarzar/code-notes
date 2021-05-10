@@ -35,3 +35,28 @@ _Ejercicio_: Representar el número 70 en binario.
 └───┴───┴───┴───┴───┴───┴───┴───┴─────┘
 
 En términos mas humanos sumamos los dígitos que tenemos disponibles para que no de el numero deseado(70) en este caso sería 64 + 4 + 2 = 70 y activamos poniendo un 1 en la ubicación correspondiente a cada número que necesitamos para sumar 70.
+
+**_Bits y Bytes_**: Un _bit_ es un elemento (0 o 1) dentro de la representación dentro del octeto binario y un _byte_ es el conjunto de 8 bits. 
+
+┌───────       Byte      ───────┐
+
+├───┬───┬───┬───┬───┬───┬───┬───┤
+|128| 64| 32| 16|  8|  4|  2|  1|
+├───┼───┼───┼───┼───┼───┼───┼───┤
+|  0|  1|  0|  0|  0|  1|  1|  0|
+└───┴───┴───┴───┴───┴───┴───┴───┘
+                            ┌─┴─┐
+                             Bit 
+
+El computador recibe conjuntos de bytes y los transforma a bit para entenderlos y emitir una respuesta hacia un medio de salida este proceso lo hace mediante _transistores_.
+
+**_Transistores_**: Los transistores funcionan con dos estados _on_ y _off_ lo que puede traducirse a _true_ y _false_ o _1_ y _0_, si un transistor en en on lo va a tomar la computadora como un 1 y si está en off lo toma como 0.
+
+┌─ Transistores ─┐
+├───────┬────────┤
+│   ON  │   OFF  │
+├───────┼────────┤
+│  TRUE │  FALSE │
+├───────┼────────┤
+│   1   │    0   │
+└───────┴────────┘
