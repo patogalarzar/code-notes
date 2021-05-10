@@ -68,3 +68,5 @@ _Ejercicio_:
 Binario = 10100001 01001000 01101111 01101100 01100001 00100001
 ASCII   = 161      72       111      108      97       33
 Texto   = ¡        H        o        l        a        !
+
+**_UNICODE_**: Se creo para complementar el código ASCII para cubrir todos los caracteres especiales y alfabetos, un unicode se puede formar con una representación de 1 a 6 bytes.
