@@ -60,3 +60,11 @@ El computador recibe conjuntos de bytes y los transforma a bit para entenderlos 
 ├───────┼────────┤
 │   1   │    0   │
 └───────┴────────┘
+
+**_ASCII_**: El código ASCII por sus siglas en ingles corresponde a **A**merican **S**tandard **C**ode for **I**nformation. **I**nterchange. Fue creado en 1963 por el Comité Estadounidense de Estándares. En 1981, la empresa IBM desarrolló una extensión de 8 bits del código ASCII, en esta versión se reemplazaron algunos caracteres de control obsoletos, por caracteres gráficos. Además se incorporaron 128 caracteres nuevos, con símbolos, signos, gráficos adicionales y letras latinas, necesarias para la escrituras de textos en otros idiomas, como por ejemplo el español. Casi todos los sistemas informáticos de la actualidad utilizan el código ASCII para representar caracteres, símbolos, signos y textos
+
+_Ejercicio_:
+
+Binario = 10100001 01001000 01101111 01101100 01100001 00100001
+ASCII   = 161      72       111      108      97       33
+Texto   = ¡        H        o        l        a        !
