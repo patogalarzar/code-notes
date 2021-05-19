@@ -70,3 +70,22 @@ ASCII   = 161      72       111      108      97       33
 Texto   = ¡        H        o        l        a        !
 
 **_UNICODE_**: Se creo para complementar el código ASCII para cubrir todos los caracteres especiales y alfabetos, un unicode se puede formar con una representación de 1 a 6 bytes.
+
+**_RGB_**
+⠀
+RGB se trata de un modelo cromático mediante el cual seremos capaces de representar distintos colores a partir de la mezcla de estos tres colores primarios(**R**ed, **G**reen, **B**lue).
+⠀
+Cada pixel dentro de una imagen está compuesta por 3 sub pixeles: Red, Green y Blue con un valor de 0 a 255 que representa la intensidad del color, para formar colores combinamos las tonalidades de estos tres colores.
+⠀
+Ejemplos:
+- Plum Purple 
+  **R** = 178,
+  **G** = 80,
+  **B** = 228 
+⠀
+
+A su vez la computadora realiza cálculos para convertir estos números a un lenguaje de máquina que pueda entender.
+⠀ 
+_Binario_ = 10110010 01010000 11100100
+_RGB_     = 178      80       228
+_Color_   = Plum Purple
