@@ -89,3 +89,13 @@ A su vez la computadora realiza cálculos para convertir estos números a un len
 _Binario_ = 10110010 01010000 11100100
 _RGB_     = 178      80       228
 _Color_   = Plum Purple
+
+**_INTERNET_**
+
+Surge al querer resolver problemas de cómo conectar y compartir información entre los computadores.
+
+La red de internet se basa en los cables, sea dentro de las casas ciudades o debajo de mar a través del _internet backbone_ que es la infraestructura principal que soporta la red a nivel mundial.
+ 
+_Internetworking_ nace del proyecto _ARPANET_ de querer interconectar universidades y por la guerra fría en lo 70 no querían tener toda la información en un solo lugar donde la puedan perder y nace la necesidad de replicar y compartir información entre las grandes computadoras que en ese tiempo solo podían costear las Universidades. Las dos primeras computadoras conectadas intentaron comunicarse enviando un mensaje _"login"_ y solo se recibió _"lo"_, lo cual no fue visto como un fallo sino como una señal de que si se podía hacer pero faltaba más por hacer, y eventualmente fueron resolviendo los problemas y se fueron uniendo mas universidades al proyecto y empezaran a comunicarse entre sí, logueandose, pidiendo permisos y enviándose mensajes, todo esto a través de código binario enviado por lo cables que las conectaban y en el receptor es traducido a ASCII y presentado al operador.
+ 
+Al momento de que el proyecto se empieza a volver global y cada universidad empieza a implementar soluciones propias se empiezan a establecer los primeros estándares y _protocolos_ para compartir información para establecer un orden.
