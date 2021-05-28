@@ -99,3 +99,22 @@ La red de internet se basa en los cables, sea dentro de las casas ciudades o deb
 _Internetworking_ nace del proyecto _ARPANET_ de querer interconectar universidades y por la guerra fría en lo 70 no querían tener toda la información en un solo lugar donde la puedan perder y nace la necesidad de replicar y compartir información entre las grandes computadoras que en ese tiempo solo podían costear las Universidades. Las dos primeras computadoras conectadas intentaron comunicarse enviando un mensaje _"login"_ y solo se recibió _"lo"_, lo cual no fue visto como un fallo sino como una señal de que si se podía hacer pero faltaba más por hacer, y eventualmente fueron resolviendo los problemas y se fueron uniendo mas universidades al proyecto y empezaran a comunicarse entre sí, logueandose, pidiendo permisos y enviándose mensajes, todo esto a través de código binario enviado por lo cables que las conectaban y en el receptor es traducido a ASCII y presentado al operador.
  
 Al momento de que el proyecto se empieza a volver global y cada universidad empieza a implementar soluciones propias se empiezan a establecer los primeros estándares y _protocolos_ para compartir información para establecer un orden.
+
+**_PROTOCOLOS_** 
+  
+ **_TCP/IP_**
+ 
+ _(**T**ransmission **C**ontrol **P**rotocol / **I**nternet **P**rotocol)_
+
+ Los protocolo inicialmente que fueron creados por ARPANET que utilizamos hoy en día son TCP/IP, que esta dividido en 5 etapas
+  
+ ETAPAS
+
+ * APLICATION => HTTP / FTP
+ * TRANSPORT  => TCP, UDP
+ * NETWORK    => IP, ROUTERS
+ * DATALINK   => ETHERNET, SWITCHES
+ * PHYSICAL   => CABLES
+
+ Es la forma en que se genera la información y viaja a través de la red y los diferentes aparatos enviado datos en encabezados dando indicaciones a donde quiere llegar y se va redirigiendo has llegar a su destino por la ruta mas optima y entregando el mensaje a la dirección IP final.
+
